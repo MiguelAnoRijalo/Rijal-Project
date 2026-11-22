@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Nama Kamu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">My<span>Portfolio</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Halo, Saya <span class="highlight">Nama Kamu</span></h1>
+            <h2 class="typing-text"></h2>
+            <p>Seorang Web Developer yang passionate dalam membangun website modern dan responsif.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+                <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="https://via.placeholder.com/300" alt="Foto Profil">
+            </div>
+            <div class="about-text">
+                <h3>Web Developer & Designer</h3>
+                <p>Saya adalah seorang developer yang suka menciptakan solusi digital yang indah dan fungsional. Berpengalaman dalam HTML, CSS, JavaScript, dan berbagai framework modern.</p>
+                <div class="about-info">
+                    <div><strong>Nama:</strong> Nama Kamu</div>
+                    <div><strong>Email:</strong> email@kamu.com</div>
+                    <div><strong>Lokasi:</strong> Indonesia</div>
+                    <div><strong>Freelance:</strong> Available</div>
+                </div>
+                <a href="#" class="btn btn-primary">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-html5"></i><h3>HTML5</h3></div>
+            <div class="skill-card"><i class="fab fa-css3-alt"></i><h3>CSS3</h3></div>
+            <div class="skill-card"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
+            <div class="skill-card"><i class="fab fa-react"></i><h3>React</h3></div>
+            <div class="skill-card"><i class="fab fa-node-js"></i><h3>Node.js</h3></div>
+            <div class="skill-card"><i class="fab fa-git-alt"></i><h3>Git</h3></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Proyek Saya</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img" style="background: linear-gradient(135deg,#667eea,#764ba2)"></div>
+                <div class="project-info">
+                    <h3>Website E-Commerce</h3>
+                    <p>Toko online dengan sistem keranjang belanja dan pembayaran.</p>
+                    <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img" style="background: linear-gradient(135deg,#f093fb,#f5576c)"></div>
+                <div class="project-info">
+                    <h3>Landing Page</h3>
+                    <p>Landing page produk dengan animasi modern dan responsif.</p>
+                    <div class="project-tags"><span>HTML</span><span>CSS</span></div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img" style="background: linear-gradient(135deg,#4facfe,#00f2fe)"></div>
+                <div class="project-info">
+                    <h3>Aplikasi Todo</h3>
+                    <p>Aplikasi pencatat tugas dengan localStorage dan fitur drag-drop.</p>
+                    <div class="project-tags"><span>JS</span><span>CSS</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Hubungi Saya</h2>
+        <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Nama" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Pesan" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Nama Kamu. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
