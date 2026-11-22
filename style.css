@@ -166,8 +166,9 @@ body {
     overflow: hidden;
     width: 100%;
     
-    /* --- UBAH BAGIAN INI --- */
-     background-image: url('foto-profil.png'); /* Ganti 'fotoku.jpg' dengan nama file gambar kamu */
+.hero {
+    /* ... kode lain ... */
+    background-image: url('foto-profil.png'); /* Pastikan pakai tanda kutip dan ekstensi .jpg / .png */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
