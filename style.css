@@ -334,5 +334,14 @@ footer {
 .social-item img {
     width: 70px;  
     height: 70px; 
-    ... /* <--- INI ERROR! */
+}
+
+/* PAKSA WARNA BERUBAH */
+.hero-content h1 {
+    color: #ff0000 !important; /* Merah */
+}
+
+.hero-content h1 .highlight {
+    color: #4b7bec !important; /* Biru keunguan */
+    text-shadow: 0 0 20px rgba(75, 123, 236, 0.6) !important;
 }
