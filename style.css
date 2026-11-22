@@ -26,14 +26,16 @@ body {
 .navbar {
     position: fixed;
     top: 0;
+    left: 0; /* Tambahkan ini */
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5%;
-    background: rgba(255,255,255,0.95);
+    background: rgba(10, 10, 10, 0.9); /* Hitam agak transparan */
     backdrop-filter: blur(10px);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border: none !important; /* Menghapus garis putih */
+    box-shadow: none !important; /* Menghapus bayangan yang bikin garis */
     z-index: 1000;
 }
 
