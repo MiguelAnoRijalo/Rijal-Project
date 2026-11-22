@@ -154,3 +154,9 @@ footer { text-align: center; padding: 2rem; background: #050505; color: #b0b0b0;
     .about-info { grid-template-columns: 1fr; }
     .section-title { font-size: 2rem; }
 }
+
+/* Menghilangkan garis kuning (outline) bawaan browser saat diklik */
+a, button, .btn, .social-links a, .typing-text {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+}
