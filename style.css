@@ -155,6 +155,24 @@ body {
     text-shadow: 0 0 10px rgba(162, 155, 254, 0.5);
 }
 
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 5%;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    
+    /* --- UBAH BAGIAN INI --- */
+    background-image: 'foto-profil.png'; /* Ganti 'fotoku.jpg' dengan nama file gambar kamu */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* Section */
 section {
     padding: 5rem 5%;
