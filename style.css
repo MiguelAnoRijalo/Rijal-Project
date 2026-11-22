@@ -50,15 +50,18 @@ html, body {
     z-index: 10; 
 }
 
+/* 1. Bagian "Halo, My Name is" (Merah) */
 .hero-content h1 { 
     font-size: 3rem; 
     margin-bottom: 1rem; 
-    color: #ffffff; 
+    color: #ff3333; /* <--- Merah */
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.8); 
 }
 
+/* 2. Bagian Nama (Biru agak keunguan) */
 .highlight { 
-    color: #ff0000; /* Ganti ungu jadi merah */
-    text-shadow: 0 0 20px rgba(255, 0, 0, 0.5); /* Efek cahaya merah */
+    color: #5f27cd; /* <--- Biru keunguan (Ganti angka ini kalau mau lebih biru) */
+    text-shadow: 0 0 20px rgba(95, 39, 205, 0.6); /* Efek cahaya biru keunguan */
 }
 
 .hero-content p { 
