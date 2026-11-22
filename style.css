@@ -327,3 +327,9 @@ footer {
     font-weight: 500;
     color: #d1d1d1;
 }
+
+.social-item img {
+    width: 70px;  /* Ubah jadi 80px kalau mau lebih besar */
+    height: 70px; /* Sesuaikan dengan width-nya */
+    ...
+}
