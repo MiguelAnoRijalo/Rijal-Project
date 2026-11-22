@@ -269,3 +269,61 @@ footer {
     .about-info { grid-template-columns: 1fr; }
     .section-title { font-size: 2rem; }
 }
+
+/* =========================================
+   SOCIAL MEDIA SECTION (Pengganti Skills)
+   ========================================= */
+.socials-section {
+    background: #0a0a0a; /* Warna background hitam */
+    padding: 5rem 5%;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Agar rapi di HP */
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    gap: 1rem;
+    transition: transform 0.3s ease;
+}
+
+/* Kotak tempat ikon gambar */
+.social-item img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover; /* Agar gambar tidak gepeng */
+    border-radius: 50%; /* Bikin gambarnya bulat */
+    background: #1a1a1a; /* Warna kotak abu-abu gelap sebelum gambar di-upload */
+    padding: 15px; /* Jarak gambar dari pinggir bulatan */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+/* Efek saat kursor diarahkan (Hover) */
+.social-item:hover {
+    transform: translateY(-5px); /* Ikon naik sedikit */
+}
+
+.social-item:hover img {
+    border-color: var(--primary); /* Garis pinggir jadi ungu */
+    box-shadow: 0 10px 25px rgba(108, 92, 231, 0.4); /* Efek cahaya ungu */
+    background: var(--primary); /* Background berubah ungu */
+}
+
+.social-item span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #d1d1d1;
+}
