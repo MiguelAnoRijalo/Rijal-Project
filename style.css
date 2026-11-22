@@ -166,12 +166,15 @@ body {
     overflow: hidden;
     width: 100%;
     
-.hero {
-    /* ... kode lain ... */
-    background-image: url('foto-profil.png'); /* Pastikan pakai tanda kutip dan ekstensi .jpg / .png */
+    /* --- TAMBAHKAN KODE GAMBAR DI SINI --- */
+    background-image: url('foto-profil.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+    /* Opsional: Memberi lapisan gelap agar tulisan tetap terbaca */
+    background-color: #0a0a0a;
+    background-blend-mode: overlay;
 }
 
 /* Section */
