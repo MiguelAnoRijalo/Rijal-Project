@@ -329,7 +329,7 @@ footer {
 }
 
 .social-item img {
-    width: 70px;  /* Ubah jadi 80px kalau mau lebih besar */
-    height: 70px; /* Sesuaikan dengan width-nya */
-    ...
+    width: 70px;  
+    height: 70px; 
+    ... /* <--- INI ERROR! */
 }
