@@ -185,3 +185,12 @@ a, button, .btn, .social-links a, .typing-text {
 .hero {
     padding-top: 0 !important;
 }
+
+.about-img img {
+    width: 100%;
+    max-width: 300px; /* Batasi ukuran maksimal */
+    aspect-ratio: 1 / 1; /* Bikin fotonya jadi persegi sempurna */
+    object-fit: cover; /* Biar fotonya tidak gepeng, tapi dipotong rapi */
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
