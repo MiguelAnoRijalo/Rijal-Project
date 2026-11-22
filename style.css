@@ -160,3 +160,28 @@ a, button, .btn, .social-links a, .typing-text {
     outline: none !important;
     -webkit-tap-highlight-color: transparent !important;
 }
+
+/* =========================================
+   MENYEMBUNYIKAN BAGIAN YANG TIDAK DIPAKAI
+   ========================================= */
+
+/* 1. Sembunyikan Navbar (Menu di atas) */
+.navbar {
+    display: none !important;
+}
+
+/* 2. Sembunyikan Tulisan Typing (UI/UX Enthusiast) */
+.typing-text {
+    display: none !important;
+}
+
+/* 3. Sembunyikan Tombol & Ikon Sosial Media */
+.hero-buttons,
+.social-links {
+    display: none !important;
+}
+
+/* 4. Rapikan jarak teks karena Navbar hilang */
+.hero {
+    padding-top: 0 !important;
+}
