@@ -167,7 +167,7 @@ body {
     width: 100%;
     
     /* --- UBAH BAGIAN INI --- */
-    background-image: ('foto-profil.png'); /* Ganti 'fotoku.jpg' dengan nama file gambar kamu */
+     background-image: url('foto-profil.png'); /* Ganti 'fotoku.jpg' dengan nama file gambar kamu */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
